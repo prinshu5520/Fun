@@ -4,7 +4,10 @@
 
 [functions]
   directory = "api"
-  runtime = "python3.8"
+
+  [functions.runtime]
+    name = "python3.8"
+
 
 [env]
   MONGO_URI = "mongodb+srv://projectflipkart1:X73wqR9Wj98SxG84@project.mrazz.mongodb.net/Freshness?retryWrites=true&w=majority"
