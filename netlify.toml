@@ -9,8 +9,7 @@
 [env]
   MONGO_URI = "mongodb+srv://projectflipkart1:X73wqR9Wj98SxG84@project.mrazz.mongodb.net/Freshness?retryWrites=true&w=majority"
   FLASK_APP = "app"
-  SECRET_KEY = 4f3c9c8b99f65b1c4d27e273a9b9b6c2
-
+  SECRET_KEY = "4f3c9c8b99f65b1c4d27e273a9b9b6c2"
 [[redirects]]
   from = "/*"
   to = "/wsgi.py"
