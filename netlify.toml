@@ -1,13 +1,12 @@
 [build]
-  command = "pip install -r requirements.txt && python wsgi.py"
-  publish = "app/"
+  command = "pip install -r requirements.txt"
+  publish = "/"
 
 [functions]
   directory = "api"
 
   [functions.runtime]
     name = "python3.8"
-
 
 [env]
   MONGO_URI = "mongodb+srv://projectflipkart1:X73wqR9Wj98SxG84@project.mrazz.mongodb.net/Freshness?retryWrites=true&w=majority"
@@ -16,5 +15,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
